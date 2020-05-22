@@ -1,12 +1,11 @@
-1) clone the project
+<ol>
+<li>clone the project</li>
+<li>Create the bootJar for all the submodules using gradle</li>
+<li>$docker-compose up </li>
+</ol>
+Last command should be run from the root folder of project
 
-2) Create the bootJar for all the submodules using gradle
-
-3) $docker-compose up 
-<br>
-This  command should be run from the root folder of project
-
-This project is spring boot eureka example with gradle.
+This project is spring boot rest eureka example with gradle.
 There are 3 submodules. 
 <ul>
 <li>Eureka Server </li>
