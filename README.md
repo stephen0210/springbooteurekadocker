@@ -3,7 +3,8 @@
 <li>Create the bootJar for all the submodules using gradle</li>
 <li>$docker-compose up </li>
 </ol>
-Last command should be run from the root folder of project
+Last command should be run from the root folder of project.<br>
+Also you can skip the step2 , the project folder has the bootJar in build folder. If you want to make changes in the existing code. Then only you need to runn bootJar command using gradle
 
 This project is spring boot rest eureka example with gradle.
 There are 3 submodules. 
