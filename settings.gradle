@@ -1,0 +1,5 @@
+rootProject.name = 'springbooteurekadocker'
+include 'eurekaserver'
+include 'eurekaproducer'
+include 'eurekaconsumer'
+
