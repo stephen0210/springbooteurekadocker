@@ -1,4 +1,4 @@
-Docker Version :Docker version 19.03.8, build afacb8b <br>
+Docker version 19.03.8, build afacb8b <br>
 Java : 8 <br>
 
 <ol>
