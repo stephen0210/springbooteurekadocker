@@ -1,3 +1,6 @@
+Docker Version :Docker version 19.03.8, build afacb8b <br>
+Java : 8 <br>
+
 <ol>
 <li>clone the project</li>
 <li>Create the bootJar for all the submodules using gradle</li>
