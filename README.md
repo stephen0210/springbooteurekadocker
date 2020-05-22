@@ -6,7 +6,7 @@
 <br>
 This  command should be run from the root folder of project
 
-This project is sprint boot eureka example with gradle.
+This project is spring boot eureka example with gradle.
 There are 3 submodules. 
 <ul>
 <li>Eureka Server </li>
