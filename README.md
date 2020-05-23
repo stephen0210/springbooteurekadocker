@@ -8,8 +8,7 @@ Steps to follow :
 <li>Create the bootJar for all the submodules using gradle</li>
 <li>$docker-compose up </li>
 </ol>
-Last command should be run from the root folder of project.<br>
-Also you can skip the step 2 , the project folder has the bootJar in build folder. <br>
+Last command should be run from the root folder of project.<br><br>
 The spring boot jars will be created as the part of the process, if you use this docker command <br>
 docker-compose  -f docker-compose-gradle-build.yml up<br>
 Note : this will take time as the jars and pluggins are downloaded by the gradle at runtime<br>
