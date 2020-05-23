@@ -12,7 +12,6 @@ Last command should be run from the root folder of project.<br><br>
 The spring boot jars will be created as the part of the process, if you use this docker command <br>
 $docker-compose  -f docker-compose-gradle-build.yml up<br>
 Note : this will take time as the jars and pluggins are downloaded by the gradle at runtime<br>
-If you want to make changes in the existing code , only then you need to run bootJar command using gradle
 <br><br>
 This project is spring boot rest eureka example with gradle.
 There are 3 submodules. 
