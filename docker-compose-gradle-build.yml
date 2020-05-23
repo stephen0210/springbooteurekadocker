@@ -1,0 +1,43 @@
+version: "3.7"
+services:
+
+  eurekaserver:
+    build:
+      context: eurekaserver
+      dockerfile: gradle/Dockerfile
+    image: eurekaserver
+    container_name: eurekaserver
+    ports:
+      - "8761:8761"
+    networks:
+      - host
+
+  eurekaproducer:
+    build:
+      context: eurekaproducer
+      dockerfile: gradle/Dockerfile
+    image: eurekaproducer
+    container_name: eurekaproducer
+    ports:
+      - "8080:8080"
+    depends_on:
+      - eurekaserver
+    networks:
+      - host
+
+  eurekaconsumer:
+    build:
+      context: eurekaconsumer
+      dockerfile: gradle/Dockerfile
+    image: eurekaconsumer
+    container_name: eurekaconsumer
+    ports:
+      - "8082:8082"
+    depends_on:
+      - eurekaproducer
+    networks:
+      - host
+
+
+networks:
+  host:
